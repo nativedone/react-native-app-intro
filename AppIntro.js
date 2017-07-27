@@ -320,7 +320,7 @@ export default class AppIntro extends Component {
               position: 'absolute',
               height: windowsHeight - 400,
               width: windowsWidth,
-              //top: 0,
+              top: 0,
             }, {
               ...transform[0],
             }]}
