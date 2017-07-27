@@ -318,7 +318,7 @@ export default class AppIntro extends Component {
           return (
             <Animated.View key={i} style={[{
               position: 'absolute',
-              height: windowsHeight - 400,
+              height: windowsHeight - 100,
               width: windowsWidth,
               top: 0,
             }, {
