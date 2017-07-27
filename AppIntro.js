@@ -70,7 +70,7 @@ const defaulStyles = {
   },
   paginationContainer: {
     position: 'absolute',
-    bottom: 250,
+    bottom: 100,
     left: 0,
     right: 0,
     flexDirection: 'row',
@@ -318,7 +318,7 @@ export default class AppIntro extends Component {
           return (
             <Animated.View key={i} style={[{
               position: 'absolute',
-              height: windowsHeight - 100,
+              height: windowsHeight,
               width: windowsWidth,
               top: 0,
             }, {
