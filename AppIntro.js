@@ -70,7 +70,7 @@ const defaulStyles = {
   },
   paginationContainer: {
     position: 'absolute',
-    bottom: 100,
+    bottom: 25,
     left: 0,
     right: 0,
     flexDirection: 'row',
@@ -203,7 +203,7 @@ export default class AppIntro extends Component {
       isSkipBtnShow = true;
     }
     return (
-      <View style={[this.styles.paginationContainer]}>
+      <View style={[this.styles.paginationContainer, paginationStyle]}>
         {this.props.showSkipButton ? <SkipButton
           {...this.props}
           {...this.state}
